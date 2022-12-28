@@ -1,0 +1,140 @@
+apiVersion: "v1"
+kind: "Secret"
+metadata:
+  name: {{ .Release.Name }}-harbor
+type: "kubernetes.io/dockerconfigjson"
+data:
+  .dockerconfigjson: {{ template "imagePullSecret" . }}
+---
+apiVersion: "v1"
+kind: "Secret"
+metadata:
+  name: {{ .Release.Name }}-credentials
+type: Opaque
+data:
+  dummy: "ZHVtbXkK"
+  {{- if .Values.aws.accessKeyId -}}
+  AWS_ACCESS_KEY_ID: {{ .Values.aws.accessKeyId | b64enc}}
+  AWS_SECRET_ACCESS_KEY: {{ .Values.aws.secretAccessKey | b64enc}}
+  {{- end -}}
+  {{- if .Values.aws.sharedCredentialsFile -}}
+  AWS_SHARED_CREDENTIALS_FILE: {{ .Values.aws.sharedCredentialsFile | b64enc}}
+  {{- end -}}
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "{{ .Release.Name }}-config"
+data:
+  application.yml: |
+    {{- toYaml .Values.config | nindent 4 }}
+---
+apiVersion: "v1"
+kind: "Service"
+metadata:
+  name: {{ .Release.Name }}-service
+  labels:
+    app: "service"
+    release: {{ .Release.Name | quote}}
+spec:
+  ports:
+  - name: http
+    port: 8080
+    protocol: "TCP"
+    targetPort: 8080
+  selector:
+    app: "exporter"
+    release: {{ .Release.Name | quote}}
+---
+apiVersion: "apps/v1"
+kind: "Deployment"
+metadata:
+  name: {{ .Release.Name }}-exporter
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: "exporter"
+      release: {{ .Release.Name | quote}}
+  template:
+    metadata:
+      labels:
+        app: "exporter"
+        release: {{ .Release.Name | quote}}
+    spec:
+      imagePullSecrets:
+        - name: "{{ .Release.Name }}-harbor"
+      containers:
+      - image: "rmalchow/cloudwatch-multi-account"
+        imagePullPolicy: Always
+        name: {{ .Release.Name }}-exporter
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8080
+            scheme: HTTP
+          initialDelaySeconds: 20
+          periodSeconds: 10
+          successThreshold: 1
+          failureThreshold: 5
+          timeoutSeconds: 5
+        env:
+        - name: deployed
+          value: {{ .Values.date | quote }}
+        {{- if .Values.aws.sharedCredentialsFile -}}
+        - name: "AWS_SHARED_CREDENTIALS_FILE"
+          value: "/etc/aws_credentials"
+        {{- end -}}
+        {{- if .Values.aws.accessKeyId -}}
+        - name: "AWS_ACCESS_KEY_ID"
+          valueFrom:
+            secretKeyRef:
+              name: "{{ .Release.Name }}-credentials"
+              key: AWS_ACCESS_KEY_ID
+        - name: "AWS_SECRET_ACCESS_KEY"
+          valueFrom:
+            secretKeyRef:
+              name: "{{ .Release.Name }}-credentials"
+              key: "AWS_SECRET_ACCESS_KEY"
+        {{- end -}}
+        volumeMounts:
+        - mountPath: "/app/application.yml"
+          name: "configuration"
+          subPath: "application.yml"
+        - mountPath: "/etc/aws_credentials"
+          name: secret
+          subPath: "AWS_SHARED_CREDENTIALS_FILE"
+          readOnly: true          
+      volumes:
+        - name: configuration
+          configMap:
+            name: "{{ .Release.Name }}-config"
+        - name: secrets
+          secret:
+            secretName: {{ .Release.Name }}-credentials
+---
+apiVersion: "monitoring.coreos.com/v1"
+kind: "ServiceMonitor"
+metadata:
+  name: {{ .Release.Name }}-monitor
+  labels:
+    app: "monitor"
+    release: {{ .Release.Name | quote}}
+spec:
+  endpoints:
+  - honorLabels: true
+    interval: 120s
+    path: /metrics
+    port: http
+    scheme: http
+    relabelings:
+      - regex: "pod"
+        action: labeldrop  
+  namespaceSelector:
+    matchNames:
+    - prometheus
+  selector:
+    matchLabels:
+      app: "service"
+      release: {{ .Release.Name | quote}}
+  jobLabel: prometheus

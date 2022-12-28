@@ -1,0 +1,85 @@
+# scrape for resources every 30 minutes
+interval: 180000
+# metrics from the last ten minuts
+queryStart: -10
+queryEnd: 0
+# resource tags to use as labels
+tags: 
+ - AccountID
+ - Region
+ - Name
+ - Environment
+# account map
+accounts:
+  a:
+    # using a profile:
+    profile: some-profile-name
+    region: us-east-1
+  b:
+    # using access key & secret
+    access_key_id: AK00000000
+    secret_access_key: SK0000000000
+    region: eu-central-1
+  c:
+    # using switch role (e.g. from instance profile)
+    region: eu-central-1
+    role: arn:aws:iam::-------:role/SomeRoleName
+# metrics to retrieve
+metrics:
+  # EC
+  EC2_CPUUtilization:
+    awsMetricName: CPUUtilization
+    period: 300
+    awsType: ec2
+    awsNamespace: AWS/EC2
+    awsStatistic: Average
+  EC2_DiskReadOps:
+    awsMetricName: DiskReadOps
+    period: 300
+    awsType: ec2
+    awsNamespace: AWS/EC2
+    awsStatistic: Average
+  EC2_DiskWriteOps:
+    awsMetricName: DiskWriteOps
+    period: 300
+    awsType: ec2
+    awsNamespace: AWS/EC2
+    awsStatistic: Average
+  # RDS
+  RDS_CPUUtilization:
+    awsMetricName: CPUUtilization
+    period: 300
+    awsType: instance
+    awsNamespace: AWS/RDS
+    awsStatistic: Average
+  RDS_BurstBalance:
+    awsMetricName: BurstBalance
+    period: 300
+    awsType: instance
+    awsNamespace: AWS/RDS
+    awsStatistic: Average
+  RDS_CPUCreditBalance:
+    awsMetricName: CPUCreditBalance
+    period: 300
+    awsType: instance
+    awsNamespace: AWS/RDS
+    awsStatistic: Average
+  RDS_DatabaseConnections:
+    awsMetricName: DatabaseConnections
+    period: 300
+    awsType: instance
+    awsNamespace: AWS/RDS
+    awsStatistic: Average
+  RDS_FreeStorageSpace:
+    awsMetricName: FreeStorageSpace
+    period: 300
+    awsType: instance
+    awsNamespace: AWS/RDS
+    awsStatistic: Average
+  RDS_FreeLocalStorage:
+    awsMetricName: FreeLocalStorage
+    period: 300
+    awsType: instance
+    awsNamespace: AWS/RDS
+    awsStatistic: Average
+  
