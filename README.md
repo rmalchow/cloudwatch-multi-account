@@ -60,5 +60,35 @@ the values are:
 these are the metrics to scrape. "AWS Namespace" and "type" are matched against the namespace and type of each resource. if they match, the given metric is scraped for the matching resource.
 
 
-EC2 instance |  AWS/EC2  | instance
-RDS instance |  AWS/
+        EC2 instance |  AWS/EC2  | instance
+
+        RDS instance |  AWS/RDS  | instance 
+
+### List of metrics available from AWS:
+
+RDS: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-metrics.html
+
+EC2: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/viewing_metrics_with_cloudwatch.html
+
+
+## Docker
+
+this application is available as a docker image:
+
+        docker pull rmalchow/cloudwatch-multi-exporter
+
+you will need to mount your application.yml to /app/application.yml. providing IAM credentials as environment variables and mapping a port is optional, depending on your setup.
+
+        docker run \
+            -v ${PWD}/application.yml:/app/application.yml \
+            -e AWS_ACCESS_KEY_ID=... \
+            -e AWS_SECRET_ACCESS_ID=... \
+            -p 9092:8080 \
+            --restart always \
+            rmalchow/cloudwatch-multi-exporter
+
+
+## Helm
+
+You can find a basic helm chart in /helm folder. This can be used to deploy the exporter on Kubernetes, and it also shows how create a ServiceMonitor resource in K8S so that the prometheus operator can pick it up.
+
