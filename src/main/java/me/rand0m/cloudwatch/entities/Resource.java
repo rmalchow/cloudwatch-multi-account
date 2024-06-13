@@ -6,8 +6,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 import software.amazon.awssdk.services.cloudwatch.model.Dimension;
 
 public class Resource {
@@ -43,11 +41,14 @@ public class Resource {
 	}
 
 	public List<CWMetricsInstance> addRules(Collection<CWMetric> metrics) {
+		System.err.println("checking: "+getNamespace()+" / "+getType());
 		List<CWMetricsInstance> out = new ArrayList<>();
 		for(CWMetric m : metrics) {
 			if(!m.getMetricConfig().getAwsNamespace().equals(getNamespace())) {
+				System.err.println("wrong namespace: "+getNamespace()+"!="+m.getMetricConfig().getAwsNamespace());
 				continue;
 			} else if(!m.getMetricConfig().getAwsType().equals(getType())) {
+				System.err.println("wrong type: "+getType()+"!="+m.getMetricConfig().getAwsType());
 				continue;
 			} else {
 				CWMetricsInstance mi = new CWMetricsInstance();
@@ -63,6 +64,7 @@ public class Resource {
 				out.add(mi);
 			}
 		}
+		System.err.println("added: "+out.size()+" metrics "+getNamespace()+" / "+getType());
 		return out;
 	}
 

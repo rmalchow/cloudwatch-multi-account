@@ -81,6 +81,8 @@ public class GetMetricDataDataGetter {
 			GetMetricDataRequest.Builder b = GetMetricDataRequest.builder();
 			Instant end = Instant.now().plus(config.getQueryEnd(), ChronoUnit.MINUTES).truncatedTo(ChronoUnit.MILLIS);
 			Instant start = Instant.now().plus(config.getQueryStart(), ChronoUnit.MINUTES).truncatedTo(ChronoUnit.MILLIS);
+			log.info("query start: "+start);
+			log.info("query end  : "+end);
 			b.startTime(start);
 			b.endTime(end);
 			{
@@ -121,14 +123,19 @@ public class GetMetricDataDataGetter {
 			}
 			Double d = getLatest(res);
 			if(d != null) {
+				log.warn("RECEIVED metrics for: "+h.getMetricName()+" / "+h.getAwsMetricName()+" / "+h.getId()+" ("+res.values().size()+")");
 				h.update(d);
 			} else {
-				log.warn("received no metrics for: "+h.getMetricName()+" / "+h.getAwsMetricName()+" / "+h.getId()+" ("+res.values().size()+")");
+				if(h!=null) {
+					log.warn("received no metrics for: "+h.getMetricName()+" / "+h.getAwsMetricName()+" / "+h.getId()+" ("+res.values().size()+")");
+				} else {
+					log.warn("received no metrics for NULL");
+				}
 			}
 		}
 		
 		for(CWMetricsInstance mi : miMap.values()) {
-			log.warn("did not receive a result for: "+mi.getMetricName()+" / "+mi.getAwsMetricName()+" / "+mi.getId());
+			log.warn("did not receive a result for: "+mi.getMetricName()+" / "+mi.getAwsMetricName()+" / "+mi.getDimension().name()+" / "+mi.getId());
 		}
 	}
 

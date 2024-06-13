@@ -19,7 +19,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<software.amazon.awssdk.version>2.17.206</software.amazon.awssdk.version>
+		<software.amazon.awssdk.version>2.23.20</software.amazon.awssdk.version>
 		<io.prometheus.version>0.16.0</io.prometheus.version>
 		<java.version>17</java.version>
 	</properties>
@@ -68,6 +68,12 @@
 		<dependency>
 			<groupId>software.amazon.awssdk</groupId>
 			<artifactId>rds</artifactId>
+			<version>${software.amazon.awssdk.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>software.amazon.awssdk</groupId>
+			<artifactId>autoscaling</artifactId>
 			<version>${software.amazon.awssdk.version}</version>
 		</dependency>
 

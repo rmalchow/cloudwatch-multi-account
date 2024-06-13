@@ -18,13 +18,13 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import io.prometheus.client.CollectorRegistry;
 import jakarta.annotation.PostConstruct;
+import me.rand0m.cloudwatch.api.ResourceDiscovery;
 import me.rand0m.cloudwatch.aws.cloudwatch.GetMetricDataDataGetter;
 import me.rand0m.cloudwatch.entities.CWMetric;
 import me.rand0m.cloudwatch.entities.CWMetricConfig;
 import me.rand0m.cloudwatch.entities.CWMetricsInstance;
 import me.rand0m.cloudwatch.entities.Config;
 import me.rand0m.cloudwatch.entities.Resource;
-import me.rand0m.cloudwatch.entities.ResourceDiscovery;
 import me.rand0m.cloudwatch.entities.TargetAccount;
 
 @Service

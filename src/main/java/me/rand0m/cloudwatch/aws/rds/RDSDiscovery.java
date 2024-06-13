@@ -10,10 +10,10 @@ import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import me.rand0m.cloudwatch.api.ResourceDiscovery;
 import me.rand0m.cloudwatch.aws.sts.StsClientHelper;
 import me.rand0m.cloudwatch.aws.sts.StsService;
 import me.rand0m.cloudwatch.entities.Resource;
-import me.rand0m.cloudwatch.entities.ResourceDiscovery;
 import me.rand0m.cloudwatch.entities.TargetAccount;
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.cloudwatch.model.Dimension;

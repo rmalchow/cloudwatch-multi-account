@@ -1,0 +1,6080 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "ErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "CreateLogStream"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "CreateLogStream"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "ErrorCount",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "CreateLogStream"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeDBParameterGroups"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "CreateRoute"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "PutBucketVersioning"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "PutBucketAcl"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "PutBucketEncryption"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "CreateBucket"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ModifyDBInstance"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "PutBucketPublicAccessBlock"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "RevokeSecurityGroupIngress"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "PutBucketTagging"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "PutBucketLifecycle"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "PutBucketOwnershipControls"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "AuthorizeSecurityGroupIngress"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "CreateTags"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeDBRecommendations"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListDetectors"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "GuardDuty"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "CreateLogGroup"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeDBSnapshots"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeBlueGreenDeployments"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "CreateLogGroup"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "ErrorCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "CreateLogGroup"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeTenantDatabases"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeGlobalClusters"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribePendingMaintenanceActions"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ModifyNetworkInterfaceAttribute"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeOptionGroups"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeEvents"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeAccountAttributes"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeDBClusterParameterGroups"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeDBClusterSnapshots"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeEventSubscriptions"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeSnapshotAttribute"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeLockedSnapshots"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeFastSnapshotRestores"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "BucketSizeBytes",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "mcon-development-mcde-15-p00609-cloudtrail"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "StandardStorage"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DatabaseConnections",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "RuleName",
+                    "Value": "mc-tfsdev-awseuc1-p-ebs-aws-cloudwatch-event-rule"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "CPUSurplusCreditsCharged",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "IngestionToInvocationStartLatency",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetBucketIntelligentTieringConfiguration"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetBucketNotification"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeTrails"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "CloudTrail"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetEventSelectors"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "CloudTrail"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetMetricStatistics"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "CloudWatch"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeWriteBytes",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-0db276f4c3a666e94"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetBucketLifecycle"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "CPUCreditBalance",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0396b29a8a3b3f92c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadLatency",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkTransmitThroughput",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "BucketSizeBytes",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "s3testbucketprod"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "StandardStorage"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DiskQueueDepth",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeIdleTime",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-074bb53668751a4e2"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "NumberOfObjects",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "mcon-tfsingle"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "AllStorageTypes"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeWriteBytes",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-074bb53668751a4e2"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeTotalWriteTime",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-074bb53668751a4e2"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DiskQueueDepth",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSByteBalance%",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DBLoad",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeTotalReadTime",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-074bb53668751a4e2"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListNotificationHubs"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "AWS User Notifications"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsGeneration",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUSurplusCreditsCharged",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DiskQueueDepth",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeReadOps",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-035e06d3fbd22a272"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "CPUSurplusCreditBalance",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0396b29a8a3b3f92c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "PacketsOut",
+            "Dimensions": [
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-0c403a28d29bf0bf8"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "MaximumUsedTransactionIDs",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "NetworkOut",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeQueueLength",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-074bb53668751a4e2"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "RDSOSMetrics"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "FailedInvocations",
+            "Dimensions": [
+                {
+                    "Name": "RuleName",
+                    "Value": "mc-tfsdev-awseuc1-p-ebs-aws-cloudwatch-event-rule"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "NetworkIn",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0396b29a8a3b3f92c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeTotalReadTime",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-0db276f4c3a666e94"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListApplications"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Service Catalog AppRegistry"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeHub"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Security Hub"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeQueueLength",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-0db276f4c3a666e94"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "StatusCheckFailed",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0396b29a8a3b3f92c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "RDSOSMetrics"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadIOPS",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NATGateway",
+            "MetricName": "BytesInFromDestination",
+            "Dimensions": [
+                {
+                    "Name": "NatGatewayId",
+                    "Value": "nat-0ade76e01d5c211fd"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "BytesDropCountBlackhole",
+            "Dimensions": [
+                {
+                    "Name": "TransitGatewayAttachment",
+                    "Value": "tgw-attach-0b42fa3bafa133e94"
+                },
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-0c403a28d29bf0bf8"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NATGateway",
+            "MetricName": "BytesOutToSource",
+            "Dimensions": [
+                {
+                    "Name": "NatGatewayId",
+                    "Value": "nat-0ade76e01d5c211fd"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DatabaseConnections",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "EBSWriteOps",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSByteBalance%",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CheckpointLag",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "EBSByteBalance%",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0396b29a8a3b3f92c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NATGateway",
+            "MetricName": "ConnectionEstablishedCount",
+            "Dimensions": [
+                {
+                    "Name": "NatGatewayId",
+                    "Value": "nat-0ade76e01d5c211fd"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeTotalWriteTime",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-0db276f4c3a666e94"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingBytes",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "PutLogEvents"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "CallCount",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteLatency",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetBucketPolicyStatus"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListBuckets"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "ResourceCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "Resource"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "AllocatedStorage"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReplicationSlotDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NATGateway",
+            "MetricName": "PacketsDropCount",
+            "Dimensions": [
+                {
+                    "Name": "NatGatewayId",
+                    "Value": "nat-0ade76e01d5c211fd"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NATGateway",
+            "MetricName": "BytesOutToDestination",
+            "Dimensions": [
+                {
+                    "Name": "NatGatewayId",
+                    "Value": "nat-0ade76e01d5c211fd"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeReadOps",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-0db276f4c3a666e94"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "IncomingLogEvents",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "NetworkPacketsOut",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUSurplusCreditsCharged",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "StatusCheckFailed_AttachedEBS",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0396b29a8a3b3f92c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NATGateway",
+            "MetricName": "PacketsOutToSource",
+            "Dimensions": [
+                {
+                    "Name": "NatGatewayId",
+                    "Value": "nat-0ade76e01d5c211fd"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetBucketCors"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetBucketPolicy"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribePrefixLists"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeVpcs"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetBucketReplication"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeAvailabilityZones"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeImages"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeEgressOnlyInternetGateways"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeSubnets"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeAddresses"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeTransitGateways"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListAliases"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "KMS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetResolverRuleAssociation"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Route 53 Resolver"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "BytesOut",
+            "Dimensions": [
+                {
+                    "Name": "TransitGatewayAttachment",
+                    "Value": "tgw-attach-0b42fa3bafa133e94"
+                },
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-0c403a28d29bf0bf8"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSIOBalance%",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "NumberOfObjects",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "mcon-development-mcde-15-p00609-cloudtrail"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "AllStorageTypes"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "EBSByteBalance%",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeInstanceTypes"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeInstanceAttribute"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeTags"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeVolumes"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeTransitGatewayVpcAttachments"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeInternetGateways"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListResolverRules"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Route 53 Resolver"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeDBEngineVersions"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeSecurityGroups"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeVpcEndpoints"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeNatGateways"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeInstanceCreditSpecifications"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeRouteTables"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeNetworkAcls"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeVpcAttribute"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeDBSubnetGroups"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeKey"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "KMS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUCreditUsage",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeReadBytes",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-074bb53668751a4e2"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "PutLogEvents"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeRegions"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListSinks"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Observability Access Manager"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeMetricFilters"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Logs",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeMetricFilters"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Logs"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeAlarms"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "CloudWatch"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetMetricData"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "CloudWatch"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetDashboard"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "CloudWatch"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "CPUSurplusCreditsCharged",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0396b29a8a3b3f92c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "OperationsFailedReplication",
+            "Dimensions": [
+                {
+                    "Name": "SourceBucket",
+                    "Value": "cp-infradev-awseuc1-dd-assets-01"
+                },
+                {
+                    "Name": "DestinationBucket",
+                    "Value": "cp-infradev-awseuw1-dd-assets-replicas-01"
+                },
+                {
+                    "Name": "RuleId",
+                    "Value": "test-replicas"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "CPUSurplusCreditBalance",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsGeneration",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "ResourceCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "Resource"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DBInstances"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DeleteAutoScalingGroup"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2 Auto Scaling"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DeleteLaunchTemplate"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "TerminateInstances"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "ResourceCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "Resource"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "NumberOfAutoScalingGroup"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "AutoScaling"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReplicationSlotDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DeleteBucket"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetBucketInventoryConfiguration"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeWriteOps",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-0db276f4c3a666e94"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DeleteBucketReplication"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "NumberOfObjects",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "mcon-terraform-development"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "AllStorageTypes"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "BucketSizeBytes",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "cf-templates-ah4opprkur57-eu-central-1"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "StandardStorage"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "BucketSizeBytes",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "mcon-terraform-development"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "StandardStorage"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "NumberOfObjects",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "mcon-development-mcde-15-p00609"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "AllStorageTypes"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DBLoadNonCPU",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "BucketSizeBytes",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "mcon-tfdev"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "StandardStorage"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "BucketSizeBytes",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "cp-infradev-awseuc1-dd-assets-replicas-01"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "StandardStorage"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "BucketSizeBytes",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "cp-infradev-awseuc1-dd-assets-01"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "StandardStorage"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "BucketSizeBytes",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "mcon-tfdmz"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "StandardStorage"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "BucketSizeBytes",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "ansible-terraform"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "StandardStorage"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DiskQueueDepth",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "SwapUsage",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "IngestionToInvocationStartLatency",
+            "Dimensions": [
+                {
+                    "Name": "RuleName",
+                    "Value": "mc-tfsdev-awseuc1-p-ebs-aws-cloudwatch-event-rule"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "BurstBalance",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NATGateway",
+            "MetricName": "ActiveConnectionCount",
+            "Dimensions": [
+                {
+                    "Name": "NatGatewayId",
+                    "Value": "nat-0ade76e01d5c211fd"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadLatency",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NATGateway",
+            "MetricName": "PacketsInFromSource",
+            "Dimensions": [
+                {
+                    "Name": "NatGatewayId",
+                    "Value": "nat-0ade76e01d5c211fd"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteIOPS",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeIdleTime",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-0db276f4c3a666e94"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeStorageSpace",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "EBSReadBytes",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0396b29a8a3b3f92c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "PacketsIn",
+            "Dimensions": [
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-0c403a28d29bf0bf8"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NATGateway",
+            "MetricName": "PeakPacketsPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "NatGatewayId",
+                    "Value": "nat-0ade76e01d5c211fd"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "PacketDropCountNoRoute",
+            "Dimensions": [
+                {
+                    "Name": "TransitGatewayAttachment",
+                    "Value": "tgw-attach-0b42fa3bafa133e94"
+                },
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-0c403a28d29bf0bf8"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "NetworkPacketsIn",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0396b29a8a3b3f92c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "StatusCheckFailed_Instance",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0396b29a8a3b3f92c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NATGateway",
+            "MetricName": "PacketsInFromDestination",
+            "Dimensions": [
+                {
+                    "Name": "NatGatewayId",
+                    "Value": "nat-0ade76e01d5c211fd"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeQueueLength",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-035e06d3fbd22a272"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "BytesOut",
+            "Dimensions": [
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-0c403a28d29bf0bf8"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeTotalReadTime",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-035e06d3fbd22a272"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "CPUCreditUsage",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeStalledIOCheck",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-074bb53668751a4e2"
+                },
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DBLoadNonCPU",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUCreditUsage",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "IngestionToInvocationCompleteLatency",
+            "Dimensions": [
+                {
+                    "Name": "RuleName",
+                    "Value": "mc-tfsdev-awseuc1-p-ebs-aws-cloudwatch-event-rule"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "PacketDropCountNoRoute",
+            "Dimensions": [
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-0c403a28d29bf0bf8"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "NumberOfObjects",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "cp-infradev-awseuc1-dd-assets-01"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "AllStorageTypes"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "NumberOfObjects",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "cp-infradev-awseuc1-dd-assets-replicas-01"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "AllStorageTypes"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "NumberOfObjects",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "mcon-tfdev"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "AllStorageTypes"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DatabaseConnections",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "MetadataNoToken",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "EBSReadOps",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUCreditUsage",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkReceiveThroughput",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSIOBalance%",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteLatency",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "Invocations"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EventBridge"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NATGateway",
+            "MetricName": "PeakBytesPerSecond",
+            "Dimensions": [
+                {
+                    "Name": "NatGatewayId",
+                    "Value": "nat-0ade76e01d5c211fd"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeableMemory",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "PacketsIn",
+            "Dimensions": [
+                {
+                    "Name": "TransitGatewayAttachment",
+                    "Value": "tgw-attach-0b42fa3bafa133e94"
+                },
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-0c403a28d29bf0bf8"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadLatency",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUSurplusCreditsCharged",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReplicationSlotDiskUsage",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "IngestionToInvocationCompleteLatency",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUCreditBalance",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUSurplusCreditBalance",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUSurplusCreditBalance",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ValidatePolicy"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Access Analyzer"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "PutBucketPolicy"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "CreateLaunchTemplate"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "RunInstances"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeLaunchTemplateVersions"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeTargetGroups"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Elastic Load Balancing"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListSubscriptions"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "SNS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListTopics"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "SNS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "CreateAutoScalingGroup"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2 Auto Scaling"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListTargetGroups"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "VPC Lattice"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "CryptographicOperationsSymmetric"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "KMS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "CreateGrant"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "KMS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "MetadataNoToken",
+            "Dimensions": [
+                {
+                    "Name": "AutoScalingGroupName",
+                    "Value": "banana-test"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "MetadataNoToken",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0bbff2c693f7b0806"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeReadBytes",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-04621b9248c979f60"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeWriteBytes",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-04621b9248c979f60"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeIdleTime",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-04621b9248c979f60"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeTotalWriteTime",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-04621b9248c979f60"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeWriteOps",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-04621b9248c979f60"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "BurstBalance",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-04621b9248c979f60"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeTotalReadTime",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-04621b9248c979f60"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeQueueLength",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-04621b9248c979f60"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeReadOps",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-04621b9248c979f60"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeAutoScalingGroups"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2 Auto Scaling"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeKeyPairs"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeVolumeStatus"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeSnapshots"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeInstanceStatus"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeAccountAttributes"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeLoadBalancers"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Elastic Load Balancing"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribePlacementGroups"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeHosts"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeLaunchTemplates"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetEbsDefaultKmsKeyId"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetEbsEncryptionByDefault"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeInstanceTypeOfferings"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CheckpointLag",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CheckpointLag",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "NumberOfObjects",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "ansible-terraform"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "AllStorageTypes"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeInstances"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "InvocationAttempts",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "BucketSizeBytes",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "mcon-development-mcde-15-p00609"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "StandardStorage"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "NetworkOut",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0396b29a8a3b3f92c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "EBSReadOps",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0396b29a8a3b3f92c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "BytesIn",
+            "Dimensions": [
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-0c403a28d29bf0bf8"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsDiskUsage",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "NetworkPacketsOut",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0396b29a8a3b3f92c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeStorageSpace",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "BytesDropCountNoRoute",
+            "Dimensions": [
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-0c403a28d29bf0bf8"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "CPUCreditBalance",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeReadBytes",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-035e06d3fbd22a272"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadThroughput",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "EBSWriteBytes",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadThroughput",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteIOPS",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeIdleTime",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-035e06d3fbd22a272"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "BytesDropCountBlackhole",
+            "Dimensions": [
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-0c403a28d29bf0bf8"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "MaximumUsedTransactionIDs",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "EBSIOBalance%",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0396b29a8a3b3f92c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NATGateway",
+            "MetricName": "BytesInFromSource",
+            "Dimensions": [
+                {
+                    "Name": "NatGatewayId",
+                    "Value": "nat-0ade76e01d5c211fd"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSIOBalance%",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadIOPS",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadLatency",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeStalledIOCheck",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-0db276f4c3a666e94"
+                },
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "OldestReplicationSlotLag",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsGeneration",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSByteBalance%",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteIOPS",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeDBClusters"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteThroughput",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReplicationSlotDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeConfigurationRecorders"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "AWS Config"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeConfigurationRecorderStatus"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "AWS Config"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListDiscoveredResources"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "AWS Config"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetTrailStatus"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "CloudTrail"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "LookupEvents"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "CloudTrail"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListTrails"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "CloudTrail"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListTags"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "CloudTrail"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListGroups"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Resource Groups"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsDiskUsage",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "StatusCheckFailed",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeableMemory",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetBucketAnalyticsConfiguration"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListMetrics"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "CloudWatch"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetTrail"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "CloudTrail"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListEventDataStores"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "CloudTrail"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetInsightSelectors"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "CloudTrail"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NATGateway",
+            "MetricName": "ErrorPortAllocation",
+            "Dimensions": [
+                {
+                    "Name": "NatGatewayId",
+                    "Value": "nat-0ade76e01d5c211fd"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "FailedInvocations",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUSurplusCreditsCharged",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeWriteBytes",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-035e06d3fbd22a272"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "OldestReplicationSlotLag",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetBucketWebsite"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListGroupResources"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Resource Groups"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "MatchedEvents",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "EBSReadBytes",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSByteBalance%",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetResources"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "Resource Groups Tagging API"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "ResourceCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "Resource"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DBSubnetGroups"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUCreditUsage",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "StatusCheckFailed_AttachedEBS",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "BurstBalance",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteLatency",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetBucketRequestPayment"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetBucketVersioning"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetAccelerateConfiguration"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetBucketOwnershipControls"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetBucketLogging"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetBucketTagging"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetBucketObjectLockConfiguration"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetBucketEncryption"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DBLoadCPU",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "BucketSizeBytes",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "mcon-tfsingle"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "StandardStorage"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "PacketDropCountBlackhole",
+            "Dimensions": [
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-0c403a28d29bf0bf8"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteThroughput",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "ResourceCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "Resource"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "vCPU"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "EC2"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "Standard/OnDemand"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkTransmitThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "MaximumUsedTransactionIDs",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "EBSIOBalance%",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "StatusCheckFailed_System",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeWriteOps",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-035e06d3fbd22a272"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "NetworkIn",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeStorageSpace",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/NATGateway",
+            "MetricName": "IdleTimeoutCount",
+            "Dimensions": [
+                {
+                    "Name": "NatGatewayId",
+                    "Value": "nat-0ade76e01d5c211fd"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListTagsForResource"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "NumberOfObjects",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "s3testbucketprod"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "AllStorageTypes"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteIOPS",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "OldestReplicationSlotLag",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetBucketPublicAccessBlock"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetBucketAcl"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "GetAccountPublicAccessBlock"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListAccessPoints"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeTotalWriteTime",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-035e06d3fbd22a272"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "MatchedEvents",
+            "Dimensions": [
+                {
+                    "Name": "RuleName",
+                    "Value": "mc-tfsdev-awseuc1-p-ebs-aws-cloudwatch-event-rule"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadIOPS",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DBLoad",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CheckpointLag",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "CPUCreditUsage",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0396b29a8a3b3f92c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "BytesDropCountNoRoute",
+            "Dimensions": [
+                {
+                    "Name": "TransitGatewayAttachment",
+                    "Value": "tgw-attach-0b42fa3bafa133e94"
+                },
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-0c403a28d29bf0bf8"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadIOPS",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "PutBucketReplication"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "S3"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "NumberOfObjects",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "mcon-tfdmz"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "AllStorageTypes"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/S3",
+            "MetricName": "NumberOfObjects",
+            "Dimensions": [
+                {
+                    "Name": "BucketName",
+                    "Value": "cf-templates-ah4opprkur57-eu-central-1"
+                },
+                {
+                    "Name": "StorageType",
+                    "Value": "AllStorageTypes"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NATGateway",
+            "MetricName": "PacketsOutToDestination",
+            "Dimensions": [
+                {
+                    "Name": "NatGatewayId",
+                    "Value": "nat-0ade76e01d5c211fd"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeReadOps",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-074bb53668751a4e2"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "EBSWriteBytes",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0396b29a8a3b3f92c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "DescribeDBInstances"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "RDS"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "PacketDropCountBlackhole",
+            "Dimensions": [
+                {
+                    "Name": "TransitGatewayAttachment",
+                    "Value": "tgw-attach-0b42fa3bafa133e94"
+                },
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-0c403a28d29bf0bf8"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Usage",
+            "MetricName": "CallCount",
+            "Dimensions": [
+                {
+                    "Name": "Type",
+                    "Value": "API"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "ListMetricStreams"
+                },
+                {
+                    "Name": "Service",
+                    "Value": "CloudWatch"
+                },
+                {
+                    "Name": "Class",
+                    "Value": "None"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DBLoadCPU",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "MaximumUsedTransactionIDs",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "NetworkReceiveThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "BurstBalance",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "TransactionLogsGeneration",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "NetworkPacketsIn",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "EBSIOBalance%",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "MatchedEvents",
+            "Dimensions": [
+                {
+                    "Name": "Source",
+                    "Value": "aws.events"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "BytesIn",
+            "Dimensions": [
+                {
+                    "Name": "TransitGatewayAttachment",
+                    "Value": "tgw-attach-0b42fa3bafa133e94"
+                },
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-0c403a28d29bf0bf8"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUUtilization",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "WriteLatency",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUCreditBalance",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "OldestReplicationSlotLag",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "TriggeredRules",
+            "Dimensions": [
+                {
+                    "Name": "RuleName",
+                    "Value": "mc-tfsdev-awseuc1-p-ebs-aws-cloudwatch-event-rule"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "StatusCheckFailed_Instance",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f68766ac9db38c30"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "StatusCheckFailed_System",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0396b29a8a3b3f92c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUSurplusCreditBalance",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "DatabaseConnections",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/TransitGateway",
+            "MetricName": "PacketsOut",
+            "Dimensions": [
+                {
+                    "Name": "TransitGatewayAttachment",
+                    "Value": "tgw-attach-0b42fa3bafa133e94"
+                },
+                {
+                    "Name": "TransitGateway",
+                    "Value": "tgw-0c403a28d29bf0bf8"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "EBSWriteOps",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0396b29a8a3b3f92c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUCreditBalance",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "TriggeredRules",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "InvocationsCreated",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUCreditBalance",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeStalledIOCheck",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-035e06d3fbd22a272"
+                },
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0396b29a8a3b3f92c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "SwapUsage",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "FreeStorageSpace",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "cp-infradev-awseuc1-dd-db-01"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "CPUSurplusCreditBalance",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/NATGateway",
+            "MetricName": "ConnectionAttemptCount",
+            "Dimensions": [
+                {
+                    "Name": "NatGatewayId",
+                    "Value": "nat-0ade76e01d5c211fd"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "BurstBalance",
+            "Dimensions": [
+                {
+                    "Name": "EngineName",
+                    "Value": "postgres"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Events",
+            "MetricName": "Invocations",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeReadBytes",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-0db276f4c3a666e94"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EBS",
+            "MetricName": "VolumeWriteOps",
+            "Dimensions": [
+                {
+                    "Name": "VolumeId",
+                    "Value": "vol-074bb53668751a4e2"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/EC2",
+            "MetricName": "CPUUtilization",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0396b29a8a3b3f92c"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/RDS",
+            "MetricName": "ReadThroughput",
+            "Dimensions": [
+                {
+                    "Name": "DatabaseClass",
+                    "Value": "db.t3.micro"
+                }
+            ]
+        }
+    ]
+}

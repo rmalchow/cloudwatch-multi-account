@@ -1,5 +1,6 @@
 /target/
 application-rm.yaml
+application.yaml
 .settings
 .classpath
 .project
