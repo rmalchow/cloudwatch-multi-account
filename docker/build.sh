@@ -14,6 +14,6 @@ DOCKER_PASSWORD=${DOCKER_PASSWORD:-bar}
 
 IMG=${DOCKER_REGISTRY}${DOCKER_REGISTRY_PATH}/cloudwatch-multi-exporter:latest
 
-docker login -u ${DOCKER_USER} -p ${DOCKER_PASSWORD} ${DOCKER_REGISTRY}
+#docker login -u ${DOCKER_USER} -p ${DOCKER_PASSWORD} ${DOCKER_REGISTRY}
 docker build -t ${IMG} .
 docker push ${IMG}
