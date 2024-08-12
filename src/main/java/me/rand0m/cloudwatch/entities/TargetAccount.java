@@ -65,24 +65,24 @@ public class TargetAccount {
 	public void setResources(List<Resource> resources) {
 		Map<String,Resource> existing = toMap(this.resources); 
 		Map<String,Resource> add = toMap(resources);
+		
+		List<Resource> rs = new ArrayList<>();
+		
 		int csame=0;
 		int cadd=0;
-		int cremove=0;
 		
-		for(String id : new ArrayList<String>(existing.keySet())) {
-			csame = csame + 1;
-			add.remove(id);
-			existing.remove(id);
+		for(Resource r : resources) {
+			if(existing.containsKey(r.getId())) {
+				csame = csame + 1;
+			} else {
+				cadd = cadd + 1;
+			}
+			rs.add(r);
 		}
-		for(Resource r : add.values()) {
-			cadd = cadd + 1;
-			this.resources.add(r);
-		}
-		for(Resource r : existing.values()) {
-			cremove = cremove + 1;
-			this.resources.remove(r);
-		}
-		log.info("account update: "+cadd+" added, "+cremove+" removed, "+csame+" unchanged");
+		
+		this.resources = rs;
+		
+		log.info("account update: "+cadd+" added, "+csame+" unchanged");
 	}
 	
 	private Map<String, Resource> toMap(List<Resource> rs) {

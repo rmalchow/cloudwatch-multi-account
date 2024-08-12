@@ -52,9 +52,6 @@ public class UpdateService {
 		}
 	}
 	
-	
-	
-	
 	public CollectorRegistry run() {
 		
 		Collection<TargetAccount> accounts = config.getAccounts().values();

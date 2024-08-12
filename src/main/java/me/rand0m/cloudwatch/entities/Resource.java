@@ -6,9 +6,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+import me.rand0m.cloudwatch.aws.cloudwatch.GetMetricDataDataGetter;
 import software.amazon.awssdk.services.cloudwatch.model.Dimension;
 
 public class Resource {
+	
+	private static Log log = LogFactory.getLog(Resource.class);
 	
 	private String namespace;
 	private String type;
@@ -41,14 +47,11 @@ public class Resource {
 	}
 
 	public List<CWMetricsInstance> addRules(Collection<CWMetric> metrics) {
-		System.err.println("checking: "+getNamespace()+" / "+getType());
 		List<CWMetricsInstance> out = new ArrayList<>();
 		for(CWMetric m : metrics) {
 			if(!m.getMetricConfig().getAwsNamespace().equals(getNamespace())) {
-				System.err.println("wrong namespace: "+getNamespace()+"!="+m.getMetricConfig().getAwsNamespace());
 				continue;
 			} else if(!m.getMetricConfig().getAwsType().equals(getType())) {
-				System.err.println("wrong type: "+getType()+"!="+m.getMetricConfig().getAwsType());
 				continue;
 			} else {
 				CWMetricsInstance mi = new CWMetricsInstance();
@@ -64,7 +67,11 @@ public class Resource {
 				out.add(mi);
 			}
 		}
-		System.err.println("added: "+out.size()+" metrics "+getNamespace()+" / "+getType());
+		
+		if(out.size()==0) {
+			log.info("no rules for: "+getNamespace()+" / "+getType()+" / "+getIdentityDimension().name());
+		}
+		
 		return out;
 	}
 
@@ -76,9 +83,13 @@ public class Resource {
 		} else if(namespace.equalsIgnoreCase("AWS/RDS") && type.equals("instance")) {
 			db.name("DBInstanceIdentifier");
 			db.value(getId());
+		} else if(namespace.equalsIgnoreCase("AWS/AutoScaling") && type.equals("asg")) {
+			db.name("AutoScalingGroupName");
+			db.value(getId());
+		} else if(namespace.equalsIgnoreCase("AWS/S3") && type.equals("s3")) {
+			db.name("SourceBucket");
+			db.value(getId());
 		}
-			
-		
 		return db.build();
 	}
 

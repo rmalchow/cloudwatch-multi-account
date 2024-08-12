@@ -72,6 +72,7 @@ public class GetMetricDataDataGetter {
 		}
 		
 		if(qs.size()<1) return;
+		log.info(account.getName()+" / "+account.getRole()+" / "+account.getRegion()+": "+qs.size());
 
 		List<MetricDataResult> results = new ArrayList<>();
 		
@@ -85,32 +86,43 @@ public class GetMetricDataDataGetter {
 			log.info("query end  : "+end);
 			b.startTime(start);
 			b.endTime(end);
-			{
-				List<MetricDataQuery> n = new ArrayList<MetricDataQuery>();
-				while(qs.size()>0 && n.size()<499) {
-					n.add(qs.remove(0));
-				}
-				b.metricDataQueries(n);
-			}
 			
-			while(true) {
-				GetMetricDataResponse response = c.getMetricData(b.build());
-				apiRequests.labels(account.getRole(),account.getRegion()).inc();
-				results.addAll(response.metricDataResults());
-				metricsCount.labels(account.getRole(),account.getRegion()).inc(response.metricDataResults().size());
-				
-				if(response.nextToken()!=null) {
-					b.nextToken(response.nextToken());
-				} else if (qs.size()>0) {
+
+			while (qs.size() > 0) {
+				{
 					List<MetricDataQuery> n = new ArrayList<MetricDataQuery>();
 					while(qs.size()>0 && n.size()<499) {
-						n.add(qs.remove(0));
+						MetricDataQuery q = qs.remove(0);
+						n.add(q);
 					}
 					b.metricDataQueries(n);
-					b.nextToken(null);
-				} else {
-					break;
+					log.info(account.getName()+" / "+account.getRole()+" / "+account.getRegion()+": QUERY: "+n.size());
 				}
+				
+				int pages = 0;
+			
+				while(true) {
+					pages = pages + 1;
+					GetMetricDataResponse response = c.getMetricData(b.build());
+					apiRequests.labels(account.getRole(),account.getRegion()).inc();
+					results.addAll(response.metricDataResults());
+					metricsCount.labels(account.getRole(),account.getRegion()).inc(response.metricDataResults().size());
+					
+					if(response.nextToken()!=null) {
+						b.nextToken(response.nextToken());
+					} else if (qs.size()>0) {
+						List<MetricDataQuery> n = new ArrayList<MetricDataQuery>();
+						while(qs.size()>0 && n.size()<499) {
+							MetricDataQuery q = qs.remove(0);
+							n.add(q);
+						}
+						b.metricDataQueries(n);
+						b.nextToken(null);
+					} else {
+						break;
+					}
+				}
+				log.info(account.getName()+" / "+account.getRole()+" / "+account.getRegion()+": PAGES: "+pages);
 			}
 		} catch (Exception e) {
 			log.error("error getting metrics data",e);
