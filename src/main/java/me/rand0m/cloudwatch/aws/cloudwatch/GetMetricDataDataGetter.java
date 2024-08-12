@@ -72,7 +72,8 @@ public class GetMetricDataDataGetter {
 		}
 		
 		if(qs.size()<1) return;
-		log.info(account.getName()+" / "+account.getRole()+" / "+account.getRegion()+": "+qs.size());
+		log.info(account.getName()+" / "+account.getRole()+" / "+account.getRegion()+": RESOURCES: "+account.getResources().size());
+		log.info(account.getName()+" / "+account.getRole()+" / "+account.getRegion()+": METRICS:   "+qs.size());
 
 		List<MetricDataResult> results = new ArrayList<>();
 		
